@@ -1,0 +1,8 @@
+.dialog__window {
+  border-radius: 5px;
+  background: #fffffff;
+  @media (min-width 1024px) {
+    max-width: 750px;
+    margin: 0px auto;
+  }
+}

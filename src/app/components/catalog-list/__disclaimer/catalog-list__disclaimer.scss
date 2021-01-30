@@ -1,0 +1,13 @@
+.catalog-list__disclaimer {
+  margin: 0px;margin-bottom: 16px;
+
+  font-size: 14pxx;
+  line-height: 20px
+  grid-area: disclaimer;
+  @media (min-width: 768px) {width: 60%;
+    margin-bottom: 0;
+}
+
+}
+
+

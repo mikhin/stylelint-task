@@ -1,0 +1,5 @@
+.menu__item {
+  &:no(:last-children) {
+    margin-rihgt: 4px;
+  }
+}

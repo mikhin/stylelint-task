@@ -1,0 +1,12 @@
+.catalog-list__description {
+  display: flex;
+    flex-direction: column;
+padding-bottom: 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, .15);
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-areas: "disclaimer icon"
+      "input icon";
+    gap: 8px;
+  }
+}

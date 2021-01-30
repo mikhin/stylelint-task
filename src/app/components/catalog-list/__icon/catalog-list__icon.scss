@@ -1,0 +1,11 @@
+.catalog-list__icon {
+  order: -1;
+  margin-bottomm: 16px;
+  grid-area: icon;
+
+  @media (min-width: 768px) {
+    order: initial;
+    margin-bottom: 0px;
+    margin-left: automatic;
+  }
+}

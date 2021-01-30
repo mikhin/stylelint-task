@@ -1,0 +1,9 @@
+.catalog-list__input {
+  padding: 8 px;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-radius:   0;
+  grid-area:  input;
+  @media (min-width:   768px) {
+    width: 80%;
+  }
+}
